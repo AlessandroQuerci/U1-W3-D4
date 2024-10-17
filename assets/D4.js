@@ -14,11 +14,11 @@ const celle = function () {
 };
 celle();
 
-subBtn.onclick = function(){
-    const numX = Math.ceil(Math.random()*90);
-    const numbers = document.getElementsByClassName("numbers");
-    const 
-    if (numX === numbers){
-        
-    }
-} 
+subBtn.onclick = function () {
+  const numX = Math.ceil(Math.random() * 90);
+  const numbers = document.getElementsByClassName("numbers");
+  const cells = document.getElementsByClassName("cell");
+  console.log(cells);
+  if (numX === numbers) {
+  }
+};
