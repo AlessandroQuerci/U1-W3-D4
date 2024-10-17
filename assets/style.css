@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  margin-inline: auto;
+  display: block;
+  background-color: #eaefed;
+  background-image: url(../assets/images/pexels-david-vives-1474251-5402912.jpg);
+  object-fit: fill;
+}
+
+header div {
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 2rem;
+  color: #eaefed;
+}
+
+.allSection {
+  color: #eaefed;
+  text-align: center;
+}
+
+#userBtn {
+  background-color: red;
+  color: #eaefed;
+  border-radius: 20%;
+  padding: 1rem;
+}
+
+article {
+  text-align: center;
+}
+
+#numTable {
+  background-color: #000000;
+  margin-top: 1rem;
+  margin-right: 12rem;
+  margin-bottom: 1rem;
+  margin-left: 12rem;
+  border: solid 2px;
+  border-color: #000000;
+  border-radius: 2%;
+  width: auto;
+}
+
+.cell {
+  background-color: #eaefed;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: solid 2px;
+  border-color: black;
+  margin-top: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  border-radius: 10%;
+}
+
+footer div {
+  background-color: black;
+  color: #eaefed;
+  text-align: center;
+  padding: 3rem;
+}
+
+h3 {
+  object-fit: cover;
+  margin: 0;
+  margin-top: 1.3rem;
+  font-size: 2rem;
+}
